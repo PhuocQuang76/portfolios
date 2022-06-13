@@ -1,0 +1,12 @@
+.content{
+    padding-left: 1%;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.bold{
+    font-weight: bold;
+}
+.content_space {
+    padding-top: 15px;
+}
+

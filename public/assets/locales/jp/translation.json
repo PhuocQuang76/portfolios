@@ -1,0 +1,50 @@
+{
+  "content": "コンテンツ",
+  "about": "自己紹介",
+  "education": "学習",
+  "skills": "スキル",
+  "experience": "経験",
+  "contact_me": "コンタクト",
+
+  "app_title": "ポートフォリオ",
+
+  "about_me": "私について",
+  "my_name":"私は{{candidateName}}ともします。",
+  "about_me_content": " 私は、フルスタックウェブアプリケーションの構築経験を持ちソフトウェアエンジニアです。私の知識を持ちIT言語には、HTML、CSS、Java、Angular、Javascript、およびReactでございます。得意React、Java、Augularが強い興味を持っております。フルスタックのウェブアプリケーションを構築し、それらの作成プロセスでさまざまなツールを使用することを楽しんでいます。最近のプロジェクトの1つであるRestaurantStoreApplicationでは、チームと協力して、フロントエンドにAngularを使用し、バックエンドにはSpringを使用しました。データを永続化するためにDBeaverでPostgresqlを使用Webアプリケーションを構築しました。以前の経験では、日本の東京でIT技術者およびプロダクトオーナーとして働いていましたが、この職務中にWebサイトやWebアプリケーションの構築する夢を持ちました。夢を達成するために、アメリカに移住して、アメリカでの大学に入学し、コンピューター情報システムの修士号を取得しました。卒業してから Revatureに入社し、自分のスキルを磨きながら、自分自身を向上することが毎日動力しています。余暇には、家族と過ごし、自家の庭もお世話をしています。コンピュータサイエンスの分野での明るい未来と、あなたのチームとの協力を楽しみにしています。",
+
+  "education_page": "学習",
+  "master_degree": "Master's degree",
+  "master_field": "コンピュータ情報システム",
+  "master_school": "ボストン大学",
+  "social_degree": "社会の学位",
+  "social_field":"コンピュータサイエンス",
+  "social_school": "東京コンピュータ専門学校",
+
+
+  "skills_page": "スキル",
+  "languages": "言語",
+  "DevOpps": "DevOpps",
+  "skill_detail_java":"約1年の知識。コミュニティカレッジ、大学、そして私から学ぶ。",
+  "skill_detail_postgresSql":"",
+  "skill_detail_html":"",
+  "skill_detail_css":"",
+  "skill_detail_javascript":"",
+  "skill_detail_typescript":"",
+  "skill_detail_nodejs":"",
+  "skill_detail_react":"",
+  "skill_detail_angular":"",
+  "skill_detail_spring":"",
+
+  "experience_page": "経験",
+
+  "contact_page": "連絡",
+  "contact_info": "連絡先",
+  "full_name": "フルネーム",
+  "address": "住所",
+  "phone_number": "電話番号",
+  "email_me": "メルーする",
+  "submit": "送信",
+  "name":"名前",
+  "email": "メールアドレス",
+  "message":"メッセージ"
+}

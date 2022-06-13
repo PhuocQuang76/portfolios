@@ -1,0 +1,17 @@
+.content{
+
+}
+.content li{
+    padding-top: 5px;
+}
+
+.content li:hover{
+    color: steelblue;
+    font-weight: bold;
+
+}
+.span{
+    white-space: nowrap;
+    font-size: 10px;
+    color: #6b798a;
+}

@@ -1,0 +1,15 @@
+.content{
+
+}
+.content ul{
+    padding-top: 15px;
+}
+
+.content li{
+    padding-bottom: 15px;
+}
+.content span {
+    white-space: nowrap;
+    font-size: 11px;
+    color: #9f9a9a;
+}
