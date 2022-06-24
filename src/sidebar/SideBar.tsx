@@ -6,6 +6,9 @@ import {Link, NavLink} from "react-router-dom";
 import { SideBarData} from "../data/SidebarData";
 import Header from "../header/Header";
 import { useTranslation } from "react-i18next";
+import { RootState } from '../store/store';
+import { translateActions } from '../store/slices/translateSlice';
+import { useSelector } from "react-redux";
 
 type Props = {
     children?: JSX.Element | JSX.Element[];
@@ -15,6 +18,9 @@ const sidebar = [
 ]
 
 const SideBar =  ({children}:Props) => {
+    const sidebar_theme = useSelector((state:RootState) => state.translate.sidebar_theme);
+    const body_theme = useSelector((state:RootState) => state.translate.body_theme);
+
     const {t} = useTranslation();
     const SidebarData = SideBarData;
     const [isOpen, setIsOpen] = useState(false);
@@ -35,13 +41,13 @@ const SideBar =  ({children}:Props) => {
                 duration:0.2,
             },
             opacity: 1,
-
         }
     }
 
     return(
-        <div className={classes.main_container}>
-           <motion.div animate={{width:isOpen ? "200px": "40px"}} className={classes.sidebar}>
+
+        <div className={body_theme}>
+           <motion.div animate={{width:isOpen ? "200px": "40px"}} className={sidebar_theme}>
                <div className={classes.top_section}>
                    {isOpen &&
                    <motion.h1
@@ -61,8 +67,8 @@ const SideBar =  ({children}:Props) => {
                <section className="classes.sidebarMenu">
                    {SidebarData.map((route) => (
                        <NavLink
-                           activeClassName={classes.active}
                            to={route.path}
+                           exact activeClassName={ classes.active}
                            key={route.name}
                            className={classes.link}>
                            <div className={classes.icon}>

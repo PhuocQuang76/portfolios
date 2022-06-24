@@ -6,7 +6,7 @@ import { useTranslation} from "react-i18next";
 
 const SkillsList = () => {
     const { t } = useTranslation();
-    const skillTitles = [{title:"languages"},{title:"DevOpps"}];
+    const skillTitles = [{title:"languages", content:Languages},{title:"DevOpps", content:DevOpps}];
     return (
         <div className={classes.content}>
 
@@ -16,7 +16,7 @@ const SkillsList = () => {
                 <div>
                     <h4 className={classes.content_space}>{t(skillTitle.title)}</h4>
                     <ul className={classes.content}>
-                        {Languages.map((skill) => (
+                        {(skillTitle.content).map((skill) => (
                             <SkillItem
                                 key={skill.id}
                                 techName={skill.techName}

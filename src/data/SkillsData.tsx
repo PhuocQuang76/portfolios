@@ -5,6 +5,7 @@ export const Languages = [
         techName:"Java",
         level:"Entry",
         detail: "skill_detail_java",
+
     },
     {
         id:2,

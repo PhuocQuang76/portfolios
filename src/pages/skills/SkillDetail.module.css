@@ -11,9 +11,9 @@
 .detail_modal h4{
     margin: 0;
     padding: 8px;
-    background: rgb(0,7,61);
+    background: rgb(188, 172, 160);
     height: 30px;
-    color: #ded8d8;
+    color: black;
     border-radius: 7px 7px 0 0;
 }
 
@@ -29,12 +29,12 @@
 }
 
 .detail_modal__actions button{
-    background: rgb(0,7,61);
-    color: white;
-    width: 60px;
-    height: 24px;
-    border-radius: 5px;
-    margin-bottom: 2px;
+/*    background: rgb(122, 121, 117);*/
+/*    color: white;*/
+/*    width: 60px;*/
+/*    height: 24px;*/
+/*    border-radius: 5px;*/
+    margin-bottom: 5px;
 }
 .detail_modal__actions button:hover{
     color: #e2b550;

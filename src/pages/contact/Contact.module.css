@@ -2,6 +2,7 @@
     margin: 3rem auto;
     width: 90%;
     max-width: 40rem;
+    font-size: 14px;
 }
 
 .content h2{
@@ -52,7 +53,7 @@
 
 .form-control input:focus {
     outline: none;
-    border-color: #240370;
+    border-color:rgb(124, 121, 122);
     background-color: #e0d4fd;
 }
 
@@ -95,16 +96,16 @@
 .actions button {
     font: inherit;
     cursor: pointer;
-    background: rgb(0,7,61);
+    background: rgb(124, 121, 122);
     color: white;
     padding: 0.5rem 1.5rem;
     margin: 2px 5% 5px 15px;
-    border: 1px solid rgb(29, 35, 81);
+    border: 1px solid rgb(190, 181, 182);
     border-radius: 4px;
     font-weight: bold;
 }
 .actions button:hover{
-    color: #6c8098;
+    color: #eae3e3;
     font-weight: bold;
     font-style: italic;
 }
@@ -112,9 +113,9 @@
 
 button {
     font: inherit;
-    background-color: #240370;
+    background-color: rgb(124, 121, 122);
     color: white;
-    border: 1px solid #240370;
+    border:  1px solid  rgb(190, 181, 182);
     padding: 0.5rem 1.5rem;
     border-radius: 4px;
     cursor: pointer;
@@ -122,15 +123,15 @@ button {
 
 button:hover,
 button:active {
-    background-color: #33059e;
-    border-color: #33059e;
+    background-color: rgb(88, 83, 85);
+    border-color:  rgb(190, 181, 182);
 }
 
 button:disabled,
 button:disabled:hover,
 button:disabled:active {
     background-color: #ccc;
-    color: #292929;
+    /*color: #292929;*/
     border-color: #ccc;
     cursor: not-allowed;
 }

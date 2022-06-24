@@ -3,11 +3,25 @@
     padding:0;
     box-sizing:border-box ;
 }
-.main_container{
-    display: flex;
+/*.main_container_US{*/
+/*    display: flex;*/
+/*    background-image: url("../../public/body_US.png");*/
+/*    background-repeat: no-repeat;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
 
-
-}
+/*.main_container_JP{*/
+/*    display: flex;*/
+/*    background-image: url("../../public/body_JP.png");*/
+/*    background-repeat: no-repeat;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
 .main{
     width: 100%;
 }
@@ -18,19 +32,37 @@
 .active{
     border-right: 4px solid white;
     transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    background: rgb(45,51,89);
+    background: rgb(233, 219, 230);
 
 }
-.sidebar{
-    background: rgb(0,7,61);
-    color:white;
-    height: 110vh;
-}
+/*.sidebar_US{*/
+/*    !*background: rgb(0,7,61);*!*/
+/*    color:black;*/
+/*    height: 110vh;*/
+/*    background-image: url("../../public/side_US.png");*/
+/*    background-repeat: no-repeat;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.sidebar_JP{*/
+/*    !*background: rgb(0,7,61);*!*/
+/*    color:black;*/
+/*    height: 110vh;*/
+/*    background-image: url("../../public/side_JP.png");*/
+/*    background-repeat: no-repeat;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
 .link_text{
 
 }
 .routes {
-    colod:white;
+    colod:black;
 }
 .top_section{
     margin-top: 10px;
@@ -48,18 +80,18 @@
 
 .link{
     display: flex;
-    color: white;
+    color: black;
     gap:5px;
     padding: 5px 10px;
     border-right: 4px solid transparent;
     transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .link:hover{
-    border-right: 4px solid white;
+    border-right: 4px solid #a27575;
     transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    background: rgb(45,51,89);
+    /*background: rgb(45,51,89);*/
     font-style:italic ;
-
+    font-weight: bold;
 }
 .bars{
     font-size:20px;
