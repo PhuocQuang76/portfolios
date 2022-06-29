@@ -8,7 +8,7 @@ import Header from "../header/Header";
 import { useTranslation } from "react-i18next";
 import { RootState } from '../store/store';
 import { translateActions } from '../store/slices/translateSlice';
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch } from "react-redux";
 
 type Props = {
     children?: JSX.Element | JSX.Element[];
@@ -18,6 +18,7 @@ const sidebar = [
 ]
 
 const SideBar =  ({children}:Props) => {
+    const dispatch = useDispatch();
     const sidebar_theme = useSelector((state:RootState) => state.translate.sidebar_theme);
     const body_theme = useSelector((state:RootState) => state.translate.body_theme);
 
@@ -90,7 +91,7 @@ const SideBar =  ({children}:Props) => {
            </motion.div>
 
             <main className={classes.main}>
-                <Header/>
+                <Header />
 
                 <div className={classes.children}>
                     {children}

@@ -5,9 +5,14 @@ import { useTranslation } from "react-i18next";
 import Card from "../../ui/Card";
 import {useRef, useEffect, useState} from 'react';
 import useInput from "../../hooks/use-input";
-
+import Confirm from "./Confirm";
+import { sendFormData } from "../../store/slices/httpRequest";
+import {useDispatch} from "react-redux";
 
 const Contact = () => {
+    const dispatch = useDispatch();
+
+
     const emailRegex = /\S+@\S+\.\S+/;
     const {t} = useTranslation();
     const {
@@ -45,6 +50,14 @@ const Contact = () => {
         if(!enteredNameIsValid || !enteredEmailIsValid || !enteredMessageIsValid){
             return
         }
+
+        const formData = {
+            name:enteredName,
+            email:enteredEmail,
+            message:enteredMessage,
+        }
+
+        dispatch(sendFormData(formData));
 
         resetName();
         resetEmail();

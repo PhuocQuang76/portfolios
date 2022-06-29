@@ -17,9 +17,7 @@
     border-radius: 7px 7px 0 0;
 }
 
-.detail_modal p{
-    padding: 1rem;
-}
+
 
 .detail_modal__actions {
     display: flex;

@@ -2,22 +2,25 @@ import classes from "./SkillItem.module.css";
 import SkillDetail from "./SkillDetail";
 import {useState} from "react";
 
-const SkillItem:React.FC<{techName:string, level:string,detail:string}> = (props) => {
-    const [isClose, setIsClose] = useState(false);
-    const clear = () => {
-        setIsClose(false);
-    }
+import { RootState } from '../../store/store';
+import { useSelector, useDispatch} from "react-redux";
+import { closeFormActions } from '../../store/slices/closeFormSlice';
 
+const SkillItem:React.FC<{techName:string, level:string,detail:string}> = (props) => {
+//     const [isClose, setIsClose] = useState(false);
+//     const clear = () => {
+//         setIsClose(false);
+//     }
+    const isOpen = useSelector((state:RootState) => state.closeForm.isOpen);
+    const dispatch = useDispatch();
     const showDetailHandler = () => {
-        console.log("check onckick");
-        console.log("isClose: " + isClose);
-        setIsClose(true);
+        dispatch(closeFormActions.openForm());
     }
 
     return(
        <div className={classes.content}>
-           {isClose && <SkillDetail
-                onClose={clear}
+           {isOpen && <SkillDetail
+
                 techName={props.techName}
                 detail={props.detail}
            />}

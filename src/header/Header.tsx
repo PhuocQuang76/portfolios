@@ -63,8 +63,6 @@ const Header = () => {
                    <DropdownButton country_code={country_code}/>
                 </div>
 
-                <hr />
-
                 <div>
                    { isOpen && <DropdownList /> }
                 </div>
