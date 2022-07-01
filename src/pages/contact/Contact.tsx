@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from 'react';
 import classes from "../contact/Contact.module.css";
 import {PersonContactData} from "../../data/PersonContactData";
 import { useTranslation } from "react-i18next";
@@ -7,10 +7,19 @@ import {useRef, useEffect, useState} from 'react';
 import useInput from "../../hooks/use-input";
 import Confirm from "./Confirm";
 import { sendFormData } from "../../store/slices/httpRequest";
-import {useDispatch} from "react-redux";
+import { RootState } from '../../store/store';
+import {useDispatch, useSelector} from "react-redux";
+import { closeFormActions } from '../../store/slices/closeFormSlice';
+import { uiActions } from '../../store/slices/uiSlice';
 
-const Contact = () => {
+const Contact:React.FC = () => {
     const dispatch = useDispatch();
+    const [enteredMessage, setEnteredMessage] = useState("");
+    const isSend = useSelector((state:RootState) => state.ui.isSend);
+//     const status = useSelector((state:RootState) => state.ui.status);
+//     const messageStatus =  useSelector((state:RootState) => state.ui.message);
+//     const messageInputRef = useRef<HTMLTextAreaElement>(null);
+//     const enteredMessage = messageInputRef.current!.value;
 
 
     const emailRegex = /\S+@\S+\.\S+/;
@@ -25,14 +34,14 @@ const Contact = () => {
 
     } = useInput((value:string) => value.trim() !== "");
 
-    const {
-        value: enteredMessage,
-        isValid: enteredMessageIsValid,
-        hasError: messageInputHasError,
-        reset: resetMessage,
-        valueChangeHandler: messageInputChangeHandler,
-        valueBlurHandler: messageInputBlurHandler,
-    } = useInput((value:string) => value.trim() !== "");
+//     const {
+//         value: enteredMessage,
+//         isValid: enteredMessageIsValid,
+//         hasError: messageInputHasError,
+//         reset: resetMessage,
+// //         valueChangeHandler: messageInputChangeHandler,
+//         valueBlurHandler: messageInputBlurHandler,
+//     } = useInput((value:string) => value.trim() !== "");
 
     const {
         value: enteredEmail,
@@ -47,9 +56,14 @@ const Contact = () => {
 
     const onSubmitHandler = (event:React.FormEvent) => {
         event.preventDefault();
-        if(!enteredNameIsValid || !enteredEmailIsValid || !enteredMessageIsValid){
+//         if(!enteredNameIsValid || !enteredEmailIsValid || !enteredMessageIsValid){
+//             return
+//         }
+        if(!enteredNameIsValid || !enteredEmailIsValid ){
             return
         }
+
+
 
         const formData = {
             name:enteredName,
@@ -59,13 +73,19 @@ const Contact = () => {
 
         dispatch(sendFormData(formData));
 
+
         resetName();
         resetEmail();
-        resetMessage();
+        setEnteredMessage("");
+
+        console.log("isSend: " + isSend);
     }
 
     let formIsValid = false;
-    if (enteredNameIsValid && enteredEmailIsValid && enteredMessageIsValid) {
+//     if (enteredNameIsValid && enteredEmailIsValid && enteredMessageIsValid) {
+//         formIsValid = true;
+//     }
+    if (enteredNameIsValid && enteredEmailIsValid) {
         formIsValid = true;
     }
 
@@ -75,14 +95,17 @@ const Contact = () => {
     const emailInputClasses = emailInputHasError
         ? 'form-control invalid' : 'form-control';
 
-    const messageInputClasses = messageInputHasError
-        ? 'form-control invalid' : 'form-control';
+//     const messageInputClasses = messageInputHasError
+//         ? 'form-control invalid' : 'form-control';
 
     return(
             <div className={classes.content}>
-                <h2>{t('contact_page')}</h2>
+                {isSend && <Confirm />}
+                 <h2>{t('contact_page')}</h2>
                  <Card>
+
                      <div className={classes.control_group}>
+
                          <h4>{t('contact_info')}:</h4>
                          <div className={classes.p_group}>
                              <p><span>{t('full_name')}</span>: {PersonContactData.name}</p>
@@ -113,6 +136,7 @@ const Contact = () => {
                                 <div className= {emailInputClasses}>
                                      <label htmlFor='email'>{t('email')}</label>
                                      <input
+
                                         type='text'
                                         id='email'
                                         onChange={emailInputChangeHandler}
@@ -122,17 +146,19 @@ const Contact = () => {
                                      {emailInputHasError && <p className='error-text'>Email must not be empty!</p>}
                                  </div>
 
-                                 <div className= {messageInputClasses}>
+                                  <div >
                                      <label htmlFor='description'>{t('message')}</label>
-                                     <input
-                                        type='text'
-                                        id='description'
-                                        onChange={messageInputChangeHandler}
-                                        onBlur={messageInputBlurHandler}
-                                        value={enteredMessage}
-                                     ></input>
-                                     {messageInputHasError && <p className='error-text'>Message must not be empty!</p>}
-                                </div>
+
+                                      <textarea
+
+                                         id="description"
+                                         name="description"
+                                         value={enteredMessage}
+                                         onChange={e => setEnteredMessage(e.target.value)}
+                                      ></textarea>
+
+
+                                 </div>
 
                                 <div className={classes.actions}>
                                     <button disabled={!formIsValid} >{t('submit')}</button>
@@ -142,6 +168,7 @@ const Contact = () => {
                     </div>
 
                 </Card>
+
             </div>
     )
 }

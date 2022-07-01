@@ -9,10 +9,26 @@ export const EducationData = [
         icon:<FaIcons.FaUniversity />
     },
     {
-        title:"social_degree",
-        field:"social_field",
-        schoolName:"social_school",
-        year:"April 2009",
+        title:"social_degree_1",
+        field:"social_field_1",
+        schoolName:"social_school_1",
+        year:"April 2007",
+        icon:<FaIcons.FaUniversity />
+    },
+
+    {
+        title:"social_degree_2",
+        field:"social_field_2",
+        schoolName:"social_school_2",
+        year:"April 2005",
+        icon:<FaIcons.FaUniversity />
+    },
+
+    {
+        title:"bachelor_degree",
+        field:"bachelor_field",
+        schoolName:"bachelor_school",
+        year:"September 2001",
         icon:<FaIcons.FaUniversity />
     },
 

@@ -2,11 +2,14 @@ import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import translateSlice from './slices/translateSlice';
 import closeFormSlice from './slices/closeFormSlice';
 import uiSlice from './slices/uiSlice';
+import skillSetSlice from './slices/skillSetSlice';
+
 const store = configureStore({
   reducer: {
     translate : translateSlice.reducer,
     closeForm : closeFormSlice.reducer,
     ui : uiSlice.reducer,
+    skillSet : skillSetSlice.reducer,
   },
 });
 

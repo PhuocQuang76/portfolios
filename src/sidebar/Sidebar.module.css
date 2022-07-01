@@ -32,7 +32,7 @@
 .active{
     border-right: 4px solid white;
     transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    background: rgb(233, 219, 230);
+    background: rgb(193, 185, 192);
 
 }
 /*.sidebar_US{*/
@@ -62,7 +62,7 @@
 
 }
 .routes {
-    colod:black;
+    colod: #6e5d5d;
 }
 .top_section{
     margin-top: 10px;

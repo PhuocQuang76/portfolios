@@ -1,29 +1,30 @@
 import React from 'react';
 import { RootState } from '../../store/store';
 import {useSelector, useDispatch} from "react-redux";
-import { closeFormActions } from '../../store/slices/closeFormSlice';
+import { uiActions } from '../../store/slices/uiSlice';
 import classes from './Confirm.module.css';
+import { useTranslation } from "react-i18next";
 
 const Confirm = () => {
     const dispatch = useDispatch();
-    const isOpen = useSelector((state:RootState) => state.closeForm.isOpen);
     const status = useSelector((state:RootState) => state.ui.status);
-
+    const messageStatus =  useSelector((state:RootState) => state.ui.message);
+    const { t } = useTranslation();
 
     const onClose = () => {
-
-        dispatch(closeFormActions.closeForm());
+        dispatch(uiActions.clearNotification());
     };
 
     return (
        <React.Fragment>
           <div className={classes.backdrop}  onClick={onClose}/>
-
-         {status != "" &&
          <div className={classes.detail_modal}>
 
-            <h1>{status}</h1>
-            <h4> Submitted. Thank you very much ! </h4>
+            {status === "Success" && <h4>{t('sent_success')}</h4>}
+            {status === "Success" && <p> {t('success_message')} </p>}
+
+            {status === "Error" && <h4>{t('sent_fail')}</h4>}
+            {status === "Error" && <p> {t('fail_message')}</p>}
 
             <div className={classes.detail_modal__actions}>
                <button
@@ -34,7 +35,7 @@ const Confirm = () => {
                </button>
             </div>
          </div>
-             }
+
        </React.Fragment>
     )
 }

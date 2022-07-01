@@ -135,3 +135,7 @@ button:disabled:active {
     border-color: #ccc;
     cursor: not-allowed;
 }
+
+.message {
+
+}

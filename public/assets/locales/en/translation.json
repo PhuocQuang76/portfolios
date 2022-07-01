@@ -14,35 +14,41 @@
   "about_me_content": "I am a software engineer with experience building full-stack web applications. My primary languages include HTML, CSS, Java, Angular, Javascript, and React and I am quite passionate about Java, Angular, and React. I enjoy building full-stack web applications and working with different tools in the process of their creation. On one of my recent projects, the Restaurant Store Application, I worked with my team to build a responsive web application using Webstorm with Angular for the front-end, IntelliJ with Spring for the back-end, and DBeaver with Postgresql for persisting the data to our database. In my previous experience, I have worked as an IT technician, and Product Owner in Tokyo, Japan and it was while in this position that I found my passion for building websites and web applications. To pursue my passion, I moved to the United States, enrolled in college, and obtained my Master's Degree in Computer Information Systems. Working at Revature has allowed me to polish my skills and improve myself as an all-around professional. I have found that group synergy is the foundation for amazing projects and have discovered I am a great team player on all projects I worked on. In my spare time, you might find me spending time with my family and working in my garden.I am looking forward to my bright future in the Computer Science field and working with your team.",
 
   "education_page": "Education",
+
   "master_degree": "Master's Degree",
   "master_field": "Computer Information System",
   "master_school": "Boston University",
-  "social_degree": "Computer Science",
-  "social_field":"Social's Degree",
-  "social_school": "Tokyo Computer community College",
+
+  "social_degree_1": "Computer Science",
+  "social_field_1":"Social's Degree",
+  "social_school_1": "Tokyo Computer community College",
+
+  "social_degree_2": "Certification in Business marketing",
+  "social_field_2":"Social's Degree",
+  "social_school_2": "Tokyo Business community College",
+
+  "bachelor_degree": "Bachelor's Degree",
+  "bachelor_field":"English and IT knowledge",
+  "bachelor_school": "Information Technology and foreign language University",
 
 
   "skills_page": "Skills",
   "languages": "Languages",
   "DevOpps": "DevOpps",
-  "skill_detail_java":"About 1 year of knowledge. Learning from community college, university and myself.",
-  "skill_detail_postgresSql":"",
-  "skill_detail_html":"",
-  "skill_detail_css":"",
-  "skill_detail_javascript":"",
-  "skill_detail_typescript":"",
-  "skill_detail_nodejs":"",
-  "skill_detail_react":"",
-  "skill_detail_angular":"",
-  "skill_detail_spring":"",
+  "skill_detail_Java":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
+  "skill_detail_PostgresSql":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
+  "skill_detail_HTML":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
+  "skill_detail_CSS":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
+  "skill_detail_JavaScript":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
+  "skill_detail_TypeScript":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
+  "skill_detail_NodeJs":"About 3 months of knowledge. Learned from University and myself.",
+  "skill_detail_React":"About 3 months of knowledge. Learning from myself.",
+  "skill_detail_Angular":"About 1 year of knowledge. Learning from community College, University,Revature's training program and myself.",
+  "skill_detail_SpringBoot":"About 3 months of knowledge. Learned from Revature's training program and myself.",
 
-  "skill_detail_git":"",
-  "skill_detail_docker":"",
+  "skill_detail_Git":"About 2 months of knowledge. Learned from Revature's training program and myself.",
+  "skill_detail_Docker":"About 1 months of knowledge. Learned from Revature's training program and myself.",
 
-
-
-
-  "experience_page": "Experience",
 
   "contact_page": "Contact",
   "contact_info": "Contact Information",
@@ -52,10 +58,44 @@
   "submit": "Submit",
   "name":"Name",
   "email": "E-Mail",
-  "message":"Message"
+  "message":"Message",
+  "sent_success" : "Success",
+  "sent_fail": "Fail",
+  "success_message": "Thank you very much for your message.",
+  "fail_message" : "Sending Form data was failed! Please try again.",
 
+  "experience_page": "Experience",
+  "year_1": "2022, Jan – 2022, June",
+  "work_title_1": "Full Stack Developer • REVATURE CO., LMT • California",
+  "work_detail_1_1": "• Trained and train myself to learn technologies relevant to client's need.",
+  "work_detail_1_2": "• Created individual projects and team projects.",
 
+  "year_2": "2012, July – 2014, June",
+  "work_title_2": "IT Helpdesk • ROBERT WALTER CO., LMT • Tokyo",
+  "work_detail_2_1": "• Manage IP phones and opening tickets for phone provider for new extensions.",
+  "work_detail_2_2": "• Troubleshoot Software, Hardware and Networking issues.",
+  "work_detail_2_3": "• Install and configure new PCs and Notebooks meant for employees.",
+  "work_detail_2_4": "• Support remote users with VPN setup and communication tools like WebEx.",
+  "work_detail_2_5": "• Provide technical support to other employees on use of software office suites.",
 
+  "year_3": "2012, February – 2012, June",
+  "work_title_3": "Jr. Programmer • FPT JAPAN CO., LTD • Tokyo",
+  "work_detail_3_1": "• Developed new features for the application written in C++.",
+  "work_detail_3_2": "• Created and executed Test Cases for the new features implemented.",
+
+  "year_4": "2012, July – 2014, June",
+  "work_title_4": "Product Owner • China Network CO., LTD • Tokyo",
+  "work_detail_4_1": "• Continued engagement with client for NEC Soft Co., LTD",
+  "work_detail_4_2": "• Responsible for interpretation of Japanese requirements to Vietnamese developers.",
+  "work_detail_4_3": "• Helped onshore Vietnamese developers get acclimated to Japanese business culture during their engagement with the client.",
+  "work_detail_4_4": "• Help plan releases for the application.",
+
+  "year_5": "2007, November – 2010, March",
+  "work_title_5": "Programmer, Product Owner • MDB CO., LTD • Tokyo",
+  "work_detail_5_1": "• Initially worked with client engagements for NTTDATA Co., LTD from 2007 to 2008.",
+  "work_detail_5_2": "• Added new features and provided bug fixes for the application for NTTDATA.",
+  "work_detail_5_3": "• Create, document and execute test cases.",
+  "work_detail_5_4": "• Engaged with new client NEC Soft Co., LTD as Product Owner (see responsibilities above)."
 
 }
 

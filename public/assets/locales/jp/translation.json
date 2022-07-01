@@ -10,32 +10,43 @@
 
   "about_me": "私について",
   "my_name":"私は{{candidateName}}ともします。",
-  "about_me_content": " 私は、フルスタックウェブアプリケーションの構築経験を持ちソフトウェアエンジニアです。私の知識を持ちIT言語には、HTML、CSS、Java、Angular、Javascript、およびReactでございます。得意React、Java、Augularが強い興味を持っております。フルスタックのウェブアプリケーションを構築し、それらの作成プロセスでさまざまなツールを使用することを楽しんでいます。最近のプロジェクトの1つであるRestaurantStoreApplicationでは、チームと協力して、フロントエンドにAngularを使用し、バックエンドにはSpringを使用しました。データを永続化するためにDBeaverでPostgresqlを使用Webアプリケーションを構築しました。以前の経験では、日本の東京でIT技術者およびプロダクトオーナーとして働いていましたが、この職務中にWebサイトやWebアプリケーションの構築する夢を持ちました。夢を達成するために、アメリカに移住して、アメリカでの大学に入学し、コンピューター情報システムの修士号を取得しました。卒業してから Revatureに入社し、自分のスキルを磨きながら、自分自身を向上することが毎日動力しています。余暇には、家族と過ごし、自家の庭もお世話をしています。コンピュータサイエンスの分野での明るい未来と、あなたのチームとの協力を楽しみにしています。",
+  "about_me_content": "私は、フルスタック・ウェブアプリケーションの構築経験を持つソフトウェアエンジニアです。私が知識を持つIT言語は、HTML、CSS、Java、Angular、Javascript、およびReactでございます。特にReact、Java、Augularに強い興味を持っております。フルスタックのウェブアプリケーションを構築し、それらの作成プロセスでさまざまなツールを使用することを楽しんできました。\n\n最近のプロジェクトの1つであるRestaurantStoreApplicationでは、チームと協力して、フロントエンドにAngularを使用し、バックエンドにはSpringを使用しました。\nデータを永続化するためにDBeaverでPostgresqlを使用して、Webアプリケーションを構築しました。以前の経験では、日本の東京でIT技術者およびプロダクトオーナーとして働いていましたが、この職務中にWebサイトやWebアプリケーションを構築する夢を持ちました。\n夢を達成するために、アメリカに移住して、アメリカでの大学に入学し、コンピューター情報システムの修士号を取得しました。卒業してから Revatureに入社し、自分のスキルを磨きながら、自分自身を向上することに毎日邁進しています。余暇には、家族と過ごし、自家の庭のお世話をしています。コンピュータサイエンスの分野での明るい未来と、\n貴社のチームとの協力を楽しみにしています。",
 
   "education_page": "学習",
-  "master_degree": "Master's degree",
+  "master_degree": "修士号",
   "master_field": "コンピュータ情報システム",
   "master_school": "ボストン大学",
-  "social_degree": "社会の学位",
-  "social_field":"コンピュータサイエンス",
-  "social_school": "東京コンピュータ専門学校",
+
+  "social_degree_1": "社会の学位",
+  "social_field_1":"コンピュータサイエンス",
+  "social_school_1": "東京コンピュータ専門学校",
+
+  "social_degree_2": "社会の学位",
+  "social_field_2":"ビジネスマーケティングの認定",
+  "social_school_2": "東京ビシネス専門学校",
+
+  "bachelor_degree": "学士号",
+  "bachelor_field":"英語とITの知識",
+  "bachelor_school": "情報技術と外国語大学",
 
 
   "skills_page": "スキル",
   "languages": "言語",
   "DevOpps": "DevOpps",
-  "skill_detail_java":"約1年の知識。コミュニティカレッジ、大学、そして私から学ぶ。",
-  "skill_detail_postgresSql":"",
-  "skill_detail_html":"",
-  "skill_detail_css":"",
-  "skill_detail_javascript":"",
-  "skill_detail_typescript":"",
-  "skill_detail_nodejs":"",
-  "skill_detail_react":"",
-  "skill_detail_angular":"",
-  "skill_detail_spring":"",
+  "skill_detail_Java":"約1年の知識。コミュニティカレッジ、大学、Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_PostgresSql":"約1年の知識。コミュニティカレッジ、大学、Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_HTML":"約1年の知識。コミュニティカレッジ、大学、Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_CSS":"約1年の知識。コミュニティカレッジ、大学、Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_JavaScript":"約1年の知識。コミュニティカレッジ、大学、Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_TypeScript":"約1年の知識。コミュニティカレッジ、大学、Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_NodeJs":"約3ヶ月の知識。大学と自身から学んだ。",
+  "skill_detail_React":"約3ヶ月の知識。自分自身から学んだ。",
+  "skill_detail_Angular":"約1年の知識。大学、Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_SpringBoot":"約3ヶ月の知識。Revatureのトレーニングプログラムで学習し、自身からも学びました。",
 
-  "experience_page": "経験",
+  "skill_detail_Git":"約2ヶ月の知識。Revatureのトレーニングプログラムで学習し、自身からも学びました。",
+  "skill_detail_Docker":"約ヶ月の知識。Revatureのトレーニングプログラムで学習しました。",
+
 
   "contact_page": "連絡",
   "contact_info": "連絡先",
@@ -46,5 +57,42 @@
   "submit": "送信",
   "name":"名前",
   "email": "メールアドレス",
-  "message":"メッセージ"
+  "message":"メッセージ",
+  "sent_success" : "送信成功",
+  "sent_fail": "送信失敗",
+  "success_message": "メールありがとう御座いました。",
+  "fail_message": "エラーが発生しました。もう一回お願いします。",
+
+  "experience_page": "経験",
+  "year_1": "2022年, 一月 – 2022年, 6月",
+  "work_title_1": "フルスタック開発者 • REVATURE 株式会社 • カリフォルニア",
+  "work_detail_1_1": "• クライアントのニーズに関連するテクノロジーを学ぶために訓練されたり自分自身も訓練しています。",
+  "work_detail_1_2": " • 個人のプロジェクトを作成及びチームのプロジェクト作成も参加しました。",
+
+  "year_2": "2012年,7月  – 2014年, 6月",
+  "work_title_2": "IT ヘルプデスク • ROBERT WALTER 株式会社 • 東京",
+  "work_detail_2_1": "• IP電話をサポートし、新しい内線の電話プロバイダーのチケットを開く。",
+  "work_detail_2_2": "• ソフトウェア、ハードウェア、およびネットワークの問題をトラブルシューティングします。",
+  "work_detail_2_3": "• 従業員向けの新しいPCとノートブックをインストールして構成する。",
+  "work_detail_2_4": "• VPNセットアップおよびWebExなどの通信ツールでリモートユーザーをサポートする。",
+  "work_detail_2_5": "• ソフトウェアオフィススイートの使用に関して他の従業員に技術サポートを提供します。",
+
+  "year_3": "2012年, ２月 – 2012, 6月",
+  "work_title_3": "ジュニアプログラマー • FPT ジャパン株式会社 • 東京",
+  "work_detail_3_1": " • C++で開発されたアプリケーションの新機能を開発しました。",
+  "work_detail_3_2": "• 実装された新機能のテストケースを作成し実行しました。",
+
+  "year_4": "2012年, 7月 – 2014年, 6月",
+  "work_title_4": "プロダクトオーナー • チャイナ ネットワーク 株式会社 • 東京",
+  "work_detail_4_1": "• NECソフト株式会社のクライアントとの継続的にプロジェクトを参加。",
+  "work_detail_4_2": "• ベトナムの開発者に対する日本の要件の解釈を担当します。",
+  "work_detail_4_3": "• 陸上のベトナム人開発者がクライアントとの関わりの中で日本のビジネス文化に慣れるのを助けました。",
+  "work_detail_4_4": "• アプリケーションのリリース計画を支援す。",
+
+  "year_5": "2007, November – 2010, March",
+  "work_title_5": "プログラマー、プロダクトオーナー • 株式会社 • 東京",
+  "work_detail_5_1": "• 2007年から2008年にかけて、NTTデータ 株式会社 のクライアントのプロジェクト開発を参加。",
+  "work_detail_5_2": "• NTTデータのアプリケーションに新機能を追加し、バグ修正を行いました。",
+  "work_detail_5_3":"• テストケースを作成、文書化、実行します。",
+  "work_detail_5_4":"• プロダクトオーナーとして新規クライアントのNECソフト株式会社に従事（上記の責任を参照）。"
 }

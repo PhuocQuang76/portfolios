@@ -1,8 +1,11 @@
 .content{
-    font-size: 14px;
+    padding-left: 1%;
+    white-space: nowrap;
+    font-size: 13px;
 }
 .content ul{
     padding-top: 15px;
+    padding-left: 11px;
 }
 
 .content li{
@@ -11,5 +14,5 @@
 .content span {
     white-space: nowrap;
     font-size: 11px;
-    color: #9f9a9a;
+    color: #6e6a6a;
 }

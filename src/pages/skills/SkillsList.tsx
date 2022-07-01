@@ -8,17 +8,24 @@ const SkillsList = () => {
     const { t } = useTranslation();
     const skillTitles = [{title:"languages", content:Languages},{title:"DevOpps", content:DevOpps}];
     return (
+
         <div className={classes.content}>
 
             <h2 >{t('skills_page')}</h2>
 
+
+
+
+
             {skillTitles.map((skillTitle) => (
-                <div>
+
+                <div key={skillTitle.title}>
                     <h4 className={classes.content_space}>{t(skillTitle.title)}</h4>
                     <ul className={classes.content}>
                         {(skillTitle.content).map((skill) => (
                             <SkillItem
                                 key={skill.id}
+                                id={skill.id}
                                 techName={skill.techName}
                                 level={skill.level}
                                 detail={skill.detail}

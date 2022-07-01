@@ -56,12 +56,15 @@ h2 {
   /*background: rgb(0,7,61);*/
   color:black;
   height: 110vh;
-  background-image: url("../public/side_US.png");
+  /*background-image: url("../public/side_US.png");*/
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: rgb(191, 186, 189);
+  background-color: #b5afb0; /* For browsers that do not support gradients */
+  background-image: linear-gradient( #d6d4d5, #8d8a8a);
 }
 
 .sidebar_JP{
@@ -83,9 +86,12 @@ h2 {
   height: 80px;
   /*background-color: rgb(0,7,61);*/
   font-family: 'Lobster', cursive;
-  background-image: url("../public/head_US.png");
+  /*background-image: url("../public/head_US.png");*/
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: rgb(191, 186, 189);
+  background-color: #b5afb0; /* For browsers that do not support gradients */
+  background-image: linear-gradient(  #8d8a8a,#d6d4d5);
 }
 
 .header_container_JP{

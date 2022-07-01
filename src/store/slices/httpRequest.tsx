@@ -13,7 +13,7 @@ type FormData = {
 
 export const sendFormData = (formData:FormData) => {
 
-    return async (dispatch:Dispatch<any>): Promise<void>  => {
+    return async (dispatch:Dispatch)  => {
         const sendRequest = async() => {
             const response = await fetch('https://react-http-f69a0-default-rtdb.firebaseio.com/pofolio.json',{
                 method: 'POST',
@@ -31,15 +31,15 @@ export const sendFormData = (formData:FormData) => {
         try{
             await sendRequest ();
             dispatch(uiActions.showNotification({
-                status: '',
-                title: '',
-                message: '',
+                status: 'Success',
+                title: 'success',
+                message: 'Thank you very much for your message.I will contact you soon!',
             }))
         }catch(error){
             dispatch(uiActions.showNotification({
-                status: 'error',
+                status: 'Error',
                 title: 'Error!',
-                message: 'Sending cart data failed!',
+                message: 'Sending form data failed!',
             }))
         }
 

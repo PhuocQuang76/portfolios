@@ -35,47 +35,47 @@ export const Languages = [
         id:6,
         techName:"TypeScript",
         level:"Entry",
-        detail: "learn 5"
+        detail: "learn 6"
     },
 
     {
         id:7,
         techName:"NodeJs",
         level:"Entry",
-        detail: "learn 5"
+        detail: "learn 7"
     },
     {
         id:8,
         techName:"React",
         level:"Entry",
-        detail: "learn 5"
+        detail: "learn 8"
     },
     {
         id:9,
         techName:"Angular",
         level:"Entry",
-        detail: "learn 5"
+        detail: "learn 9"
     },
     {
         id:10,
-        techName:"Spring Boot",
+        techName:"SpringBoot",
         level:"Entry",
-        detail: "learn 5"
+        detail: "learn 10"
     },
 ]
 
 export const DevOpps = [
     {
-        id:1,
-        techName:"Git/GitHub",
+        id:11,
+        techName:"Git",
         level:"entry",
-        detail: "learn 4"
+        detail: "learn 11"
     },
     {
-        id:2,
+        id:12,
         techName:"Docker",
          level:"Entry",
-         detail: "learn 4"
+         detail: "learn 12"
     },
 
 ]

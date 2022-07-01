@@ -1,3 +1,18 @@
 .content{
-    font-size: 14px;
+    padding-left: 1%;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.content div{
+    padding-top: 20px;
+}
+.content p {
+    font-size: 12px;
+}
+
+.content span {
+    white-space: nowrap;
+    font-size: 11px;
+    color: #6e6a6a;
 }
