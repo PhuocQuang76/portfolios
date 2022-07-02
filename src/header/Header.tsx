@@ -39,16 +39,6 @@ const Header = () => {
     const [selectedOption, setSelectedOption] = useState(null);
 
     const { t } = useTranslation();
-//     const onChangeLanguage = (code:string) => {
-//     }
-
-//    const changeLanguageHandler = () => {
-//         setIsEnglish(!isEnglish);
-//         setIsJapanese(!isJapanese);
-//         console.log("isJapanese: " + isJapanese);
-//         console.log("isEnglish:" + isEnglish);
-//    }
-
     const toggleDropdownHandler = () => {
         console.log("toggle: " + isOpen);
         dispatch(translateActions.toggleDropdown());
@@ -72,46 +62,6 @@ const Header = () => {
 }
 
 export default Header;
-
-// const Header = () => {
-//     const [isEnglish, setIsEnglish] = useState(true);
-//     const [isJapanese, setIsJapanese] = useState(false);
-//
-//     const { t } = useTranslation();
-//     const onChangeLanguage = (code:string) => {
-//     }
-//
-//     const changeLanguageHandler = () => {
-//         setIsEnglish(!isEnglish);
-//         setIsJapanese(!isJapanese);
-//         console.log("isJapanese: " + isJapanese);
-//         console.log("isEnglish:" + isEnglish);
-//     }
-//    return(
-//         <div className={classes.header_container_US}>
-//             <h1 className={classes.app_title}>{t('app_title')}</h1>
-//             <div className={classes.header_icon}>
-//                     <div
-//
-//                         onClick={changeLanguageHandler}>
-//                         {isEnglish &&
-//                             <Dropdown
-//                                 code= "en"
-//                                 country_code="US"
-//                             />}
-//                         {isJapanese &&
-//                             <Dropdown
-//                                 code= "jp"
-//                                 country_code="JP"
-//                             />}
-//                     </div>
-//
-//             </div>
-//         </div>
-//     )
-// }
-//
-// export default Header;
 
 
 

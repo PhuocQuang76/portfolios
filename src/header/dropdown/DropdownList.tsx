@@ -1,3 +1,4 @@
+import classes from "./DropdownList.module.css";
 import USAFlag from './usa-flag.png';
 import i18next from 'i18next';
 import { useTranslation } from "react-i18next";
@@ -40,11 +41,11 @@ const DropdownList = () => {
 //         );
 //     }
     return(
-        <div>
+        <div className={classes.content}>
             {languages.map((language) => (
-                    <div>
+                    <div key={language.country_code}>
                         <DropdownItem
-                            key={language.country_code}
+
                             language_code = {language.language_code}
                             country_code = {language.country_code}
                             sidebar_theme = {language.sidebar_theme}

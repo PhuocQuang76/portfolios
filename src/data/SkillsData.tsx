@@ -2,7 +2,7 @@
 export const Languages = [
     {
         id:1,
-        techName:"Java",
+        techName:"React",
         level:"Entry",
         detail: "skill_detail_java",
 
@@ -40,13 +40,13 @@ export const Languages = [
 
     {
         id:7,
-        techName:"NodeJs",
+        techName:"Java",
         level:"Entry",
         detail: "learn 7"
     },
     {
         id:8,
-        techName:"React",
+        techName:"SpringBoot",
         level:"Entry",
         detail: "learn 8"
     },
@@ -58,7 +58,7 @@ export const Languages = [
     },
     {
         id:10,
-        techName:"SpringBoot",
+        techName:"Nodejs",
         level:"Entry",
         detail: "learn 10"
     },

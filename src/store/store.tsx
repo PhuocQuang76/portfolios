@@ -1,6 +1,6 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import translateSlice from './slices/translateSlice';
-import closeFormSlice from './slices/closeFormSlice';
+import closeFormSlice from './slices/formSlice';
 import uiSlice from './slices/uiSlice';
 import skillSetSlice from './slices/skillSetSlice';
 

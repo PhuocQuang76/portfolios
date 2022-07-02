@@ -55,7 +55,7 @@ h2 {
 .sidebar_US{
   /*background: rgb(0,7,61);*/
   color:black;
-  height: 110vh;
+  height: 120vh;
   /*background-image: url("../public/side_US.png");*/
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -70,7 +70,7 @@ h2 {
 .sidebar_JP{
   /*background: rgb(0,7,61);*/
   color:black;
-  height: 110vh;
+  height: 120vh;
   /*background-image: url("../public/side_JP.png");*/
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -83,7 +83,7 @@ h2 {
 }
 
 .header_container_US{
-  height: 80px;
+  height: 84px;
   /*background-color: rgb(0,7,61);*/
   font-family: 'Lobster', cursive;
   /*background-image: url("../public/head_US.png");*/
@@ -95,7 +95,7 @@ h2 {
 }
 
 .header_container_JP{
-  height: 80px;
+  height: 84px;
   /*background-color: rgb(0,7,61);*/
   font-family: 'Lobster', cursive;
   /*background-image: url("../public/head_JP.png");*/

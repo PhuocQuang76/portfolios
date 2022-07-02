@@ -11,7 +11,7 @@
 
   "about_me": "About me",
   "my_name": "My name is {{candidateName}} ",
-  "about_me_content": "I am a software engineer with experience building full-stack web applications. My primary languages include HTML, CSS, Java, Angular, Javascript, and React and I am quite passionate about Java, Angular, and React. I enjoy building full-stack web applications and working with different tools in the process of their creation. On one of my recent projects, the Restaurant Store Application, I worked with my team to build a responsive web application using Webstorm with Angular for the front-end, IntelliJ with Spring for the back-end, and DBeaver with Postgresql for persisting the data to our database. In my previous experience, I have worked as an IT technician, and Product Owner in Tokyo, Japan and it was while in this position that I found my passion for building websites and web applications. To pursue my passion, I moved to the United States, enrolled in college, and obtained my Master's Degree in Computer Information Systems. Working at Revature has allowed me to polish my skills and improve myself as an all-around professional. I have found that group synergy is the foundation for amazing projects and have discovered I am a great team player on all projects I worked on. In my spare time, you might find me spending time with my family and working in my garden.I am looking forward to my bright future in the Computer Science field and working with your team.",
+  "about_me_content": "I am a software engineer with experience in building full-stack web applications. My primary languages include ReactJs, HTML, CSS, Angular, Javascript, Spring Boot and Java and I am quite passionate about React, Java, and Angular. I enjoy building challenging applications where I can work on both the front end and back end while working with different tools. In one of my recent projects, a \"Restaurant Store Application\", I worked with my team to build a responsive web application using Angular for the front-end and Spring for the back-end. The database was persisted with Postgresql using Spring Data. In my previous experiences prior to coming to the USA, I have worked as an IT technician, and Product Owner in Tokyo, Japan. While it has been quite some time since I was in this position, I found my passion for building websites and web-enabled applications. To pursue my passion, I moved to the United States, enrolled in college, and obtained my Master's Degree in Computer Information Systems. Working at Revature has allowed me to polish my skills and improve myself as an all-around professional. I have found that group synergy is the foundation for amazing projects and my peers often commented that I am a great team player on all projects I worked on. In my spare time, you might find me spending time learning new ways to solve programming issues I hacked my way through to solve and deliver in a timely manners.I am looking forward to my bright future in the Computer Science field and working with your team.",
 
   "education_page": "Education",
 
@@ -19,12 +19,12 @@
   "master_field": "Computer Information System",
   "master_school": "Boston University",
 
-  "social_degree_1": "Computer Science",
-  "social_field_1":"Social's Degree",
+  "social_degree_1": "Associate's Degree",
+  "social_field_1": "Computer Science",
   "social_school_1": "Tokyo Computer community College",
 
-  "social_degree_2": "Certification in Business marketing",
-  "social_field_2":"Social's Degree",
+  "social_degree_2": "Associate's Degree",
+  "social_field_2":"Certification in Business marketing",
   "social_school_2": "Tokyo Business community College",
 
   "bachelor_degree": "Bachelor's Degree",
@@ -53,7 +53,6 @@
   "contact_page": "Contact",
   "contact_info": "Contact Information",
   "full_name": "Full Name",
-  "phone_number": "Phone Number",
   "email_me": "Contact me",
   "submit": "Submit",
   "name":"Name",

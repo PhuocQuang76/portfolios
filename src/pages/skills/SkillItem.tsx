@@ -1,24 +1,17 @@
 import classes from "./SkillItem.module.css";
 import SkillDetail from "./SkillDetail";
-import {useState} from "react";
-
 import { RootState } from '../../store/store';
 import { useSelector, useDispatch} from "react-redux";
-import { closeFormActions } from '../../store/slices/closeFormSlice';
+import { formActions } from '../../store/slices/formSlice';
 import { skillSetActions } from '../../store/slices/skillSetSlice';
 
 const SkillItem:React.FC<{id:number, techName:string, level:string,detail:string}> = (props) => {
-//     const [isClose, setIsClose] = useState(false);
-//     const clear = () => {
-//         setIsClose(false);
-//     }
-
     const isOpen = useSelector((state:RootState) => state.closeForm.isOpen);
     const dispatch = useDispatch();
 
 
     const showDetailHandler = () => {
-        dispatch(closeFormActions.openForm());
+        dispatch(formActions.openForm());
         dispatch(skillSetActions.setSkillSet({
             id : props.id,
             techName : props.techName,

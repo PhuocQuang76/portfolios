@@ -1,7 +1,7 @@
 .detail_modal {
     position: fixed;
-    top: 30vh;
-    left: calc(50% - 15rem);
+    top: 60vh;
+    left: calc(56% - 15rem);
     width: 30rem;
     background: #9f9a9a;
     box-shadow: 0 2px 8px rgba(64, 52, 52, 0.26);

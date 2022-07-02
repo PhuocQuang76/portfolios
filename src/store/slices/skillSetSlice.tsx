@@ -1,7 +1,6 @@
 
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { RootState } from '../store';
 
 type skillType = {
     id : number,
@@ -32,7 +31,7 @@ const skillSetSlice = createSlice({
             state.detail = action.payload.detail;
 
         },
-        setInitital(state : skillType){
+        setInitial(state : skillType){
             state.id = 0;
             state.techName = "";
             state.level = "";
