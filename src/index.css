@@ -33,6 +33,7 @@ h2 {
 }
 
 .main_container_US{
+  width: 100%;
   display: flex;
   background-image: url("../public/body_US.png");
   background-repeat: no-repeat;
@@ -43,6 +44,7 @@ h2 {
 }
 
 .main_container_JP{
+  width: 100%;
   display: flex;
   background-image: url("../public/body_JP.png");
   background-repeat: no-repeat;
@@ -53,6 +55,7 @@ h2 {
 }
 
 .sidebar_US{
+  width: 100%;
   /*background: rgb(0,7,61);*/
   color:black;
   height: 120vh;
@@ -68,6 +71,7 @@ h2 {
 }
 
 .sidebar_JP{
+  width: 100%;
   /*background: rgb(0,7,61);*/
   color:black;
   height: 120vh;
@@ -83,6 +87,7 @@ h2 {
 }
 
 .header_container_US{
+  width: 100%;
   height: 84px;
   /*background-color: rgb(0,7,61);*/
   font-family: 'Lobster', cursive;
@@ -95,6 +100,7 @@ h2 {
 }
 
 .header_container_JP{
+  width: 100%;
   height: 84px;
   /*background-color: rgb(0,7,61);*/
   font-family: 'Lobster', cursive;

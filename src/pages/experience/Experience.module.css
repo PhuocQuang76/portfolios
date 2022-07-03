@@ -1,6 +1,7 @@
 .content{
     padding-left: 1%;
-    white-space: nowrap;
+    padding-right: 1%;
+    /*white-space: nowrap;*/
     font-size: 13px;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .content span {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     font-size: 11px;
     color: #6e6a6a;
 }
