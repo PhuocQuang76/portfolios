@@ -93,7 +93,6 @@ const Contact:React.FC = () => {
                          <h4>{t('contact_info')}:</h4>
                          <div className={classes.p_group}>
                              <p><span>{t('full_name')}</span>: {PersonContactData.name}</p>
-                             <p><span>{t('email')}</span>: {PersonContactData.email}</p>
 
                          </div>
 
