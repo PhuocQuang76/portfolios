@@ -34,20 +34,23 @@
 
   "skills_page": "Skills",
   "languages": "Languages",
-  "DevOpps": "DevOpps",
-  "skill_detail_Java":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
-  "skill_detail_PostgresSql":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
-  "skill_detail_HTML":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
-  "skill_detail_CSS":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
-  "skill_detail_JavaScript":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
-  "skill_detail_TypeScript":"About 1 year of knowledge. Learned from community College, University,Revature's training program and myself.",
-  "skill_detail_NodeJs":"About 3 months of knowledge. Learned from University and myself.",
-  "skill_detail_React":"About 3 months of knowledge. Learning from myself.",
-  "skill_detail_Angular":"About 1 year of knowledge. Learning from community College, University,Revature's training program and myself.",
-  "skill_detail_SpringBoot":"About 3 months of knowledge. Learned from Revature's training program and myself.",
+  "DevOps": "DevOps",
+  "skill_detail_Java":"Medium Proficiency. I have used this in several projects during my higher education and with my previous employments",
+  "skill_detail_PostgresSql":"Light Experience. I have several projects that used postgresql while attending school and previous projects",
+  "skill_detail_HTML":"Highly Proficient. It's one of the first things I learned while attending school.  When I freelance as a web developer, HTML is a necessity to deliver.  It is also equally important in learning new technologies as all web browsers still need HTML to render the document.",
+  "skill_detail_CSS":"Highly Proficient. Learned it as part of my higher education.  I have been using this as a freelance web developer. I have also used SASS, COMPASS and LESS to quickly develop my project's CSS needs.",
+  "skill_detail_JavaScript":"Highly Proficient. Javascript is one of the few languages modern web browsers understand and I have used it quite extensively.",
+  "skill_detail_TypeScript":"Medium Proficiency. Writing in javascript is great.  But to truly write highly compatible javascript that many browsers can run, typescript has become my \"go to\" language",
+  "skill_detail_NodeJs":"Light Proficiency.  I have only used this technology in my personal endeavors.",
+  "skill_detail_React":"High Proficiency. This is my favorite technology and I have used this while preparing for onboarding with Revature's clients. Moreover this website has been created using ReactJS.",
 
-  "skill_detail_Git":"About 2 months of knowledge. Learned from Revature's training program and myself.",
-  "skill_detail_Docker":"About 1 months of knowledge. Learned from Revature's training program and myself.",
+
+
+  "skill_detail_Angular":"Medium Proficiency. While I have used it in my pursuit of higher education, I find that the technology not to be as inspiring as ReactJS",
+  "skill_detail_SpringBoot":"Light Experience. I have used this technology while preparing for onboarding with Revature's clients.",
+
+  "skill_detail_Git":"Medium Proficiency. Every project that is of importance has to be in a repository.",
+  "skill_detail_Docker":"Light Usage.  This is one technology I am currently dabbling in. I am hoping to find an organization that can help more about it while using it in one of their projects.  I have only recently used it to locally host my database and web servers.",
 
 
   "contact_page": "Contact",

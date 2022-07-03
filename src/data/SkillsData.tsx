@@ -3,78 +3,78 @@ export const Languages = [
     {
         id:1,
         techName:"React",
-        level:"Entry",
+        level:"High Proficiency",
         detail: "skill_detail_java",
 
     },
     {
         id:2,
         techName:"PostgresSql",
-        level:"Entry",
+        level:"Light Experience",
         detail: "learn 2"
     },
     {
         id:3,
         techName:"HTML",
-        level:"Entry",
+        level:"High Proficiency",
         detail: "learn 3"
     },
     {
         id:4,
         techName:"CSS",
-        level:"Entry",
+        level:"High Proficiency",
         detail: "learn 4"
     },
     {
         id:5,
         techName:"JavaScript",
-        level:"Entry",
+        level:"High Proficiency",
         detail: "learn 5"
     },
     {
         id:6,
         techName:"TypeScript",
-        level:"Entry",
+        level:"Medium Proficiency",
         detail: "learn 6"
     },
 
     {
         id:7,
         techName:"Java",
-        level:"Entry",
+        level:"Medium Proficiency",
         detail: "learn 7"
     },
     {
         id:8,
         techName:"SpringBoot",
-        level:"Entry",
+        level:"Light Experience",
         detail: "learn 8"
     },
     {
         id:9,
         techName:"Angular",
-        level:"Entry",
+        level:"Medium Proficiency",
         detail: "learn 9"
     },
     {
         id:10,
-        techName:"Nodejs",
-        level:"Entry",
+        techName:"NodeJs",
+        level:"Light Experience",
         detail: "learn 10"
     },
 ]
 
-export const DevOpps = [
+export const DevOps = [
     {
         id:11,
         techName:"Git",
-        level:"entry",
+        level:"Medium Proficiency",
         detail: "learn 11"
     },
     {
         id:12,
         techName:"Docker",
-         level:"Entry",
+         level:"Light Usage",
          detail: "learn 12"
     },
 
